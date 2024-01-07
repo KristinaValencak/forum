@@ -26,7 +26,7 @@ Key functionalities:
 
 ![Screenshot 2024-01-07 215827](https://github.com/KristinaValencak/forum/assets/153623012/7bbc1589-c46e-45b2-9184-b83996b42d02)
 
-                  If the user is logged in, they have the ability to add new questions and answers.
+If the user is logged in, they have the ability to add new questions and answers.
                   
 ![Screenshot 2024-01-07 215845](https://github.com/KristinaValencak/forum/assets/153623012/c014b593-b6e5-4ad6-bb5d-dc842f1404df)
 
