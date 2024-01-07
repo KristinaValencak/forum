@@ -1,0 +1,59 @@
+.containerHome {
+    height: 600px;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+h1 span {
+    color: var(--pink);
+}
+
+.containerHome h1 {
+    font-size:50px;
+    line-height: 4rem;
+    font-weight: lighter;
+    font-weight: 700;
+}
+
+.containerHome p {
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 500;
+    
+}
+
+.containerHome button {
+    padding: 10px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    background-color: var(--lightPink);
+    
+}
+
+.containerHome button:hover {
+    padding: 10px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    background-color: var(--pink);
+    
+}
+
+@media only screen and (max-width: 768px){
+    .containerHome h1 {
+        font-size: 30px;
+        line-height: 2.5rem;
+    }
+    .containerHome {
+        margin-top: 4rem;
+    }
+    .containerHome p {
+        font-size: 17px;
+    }
+    .imgPets {
+        width: 400px;
+        height: 150px;
+    }
+    .containerHome .gotoforum {
+        color: black;
+    }
+   }

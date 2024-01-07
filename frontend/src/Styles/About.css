@@ -1,0 +1,48 @@
+ .pink {
+    text-align: center;
+    background-color: rgba(255,192,203, 0.3);
+    padding: 10rem;
+    padding-top: 2rem;
+    background: linear-gradient(90.21deg, var(--white) -5.91%, var(--lightPink) 111.58%);
+  }
+  
+ .containerAbout {
+    background: linear-gradient(90.21deg, var(--white) -5.91%, var(--lightPink) 111.58%);
+    height: 100vh;
+    padding: 10rem 15rem;
+  }
+  
+  .pink h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: black; 
+  }
+  
+  .pink p {
+    font-size: 20px;
+    font-weight: 500;
+    color: black; 
+  }
+
+  @media only screen and (max-width: 768px){
+    
+    .containerAbout .pink {
+      
+      
+      padding: 0 10px;
+    }
+
+    .containerAbout {
+      padding: 0 10px;
+    }
+
+    .containerAbout h1 {
+      padding-top: 3rem;
+      font-size: 40px;
+    }
+    .containerAbout p {
+      text-align: justify;
+      font-size: 16px;
+
+   }
+  }

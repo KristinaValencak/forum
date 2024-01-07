@@ -1,0 +1,68 @@
+.containerSignup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90.21deg, var(--white) -5.91%, var(--lightPink) 111.58%);
+    height: 90vh;
+}
+
+.signUp{
+  background: linear-gradient(90.21deg, var(--white) -5.91%, var(--lightPink) 111.58%);
+    box-shadow: 1px 1px 3px 2px #ddd;
+    padding: 30px;
+    border-radius: 0.25rem;
+    width: 500px;
+    font-size: 1.2rem;
+}
+
+.signUp .labelName{
+    margin-bottom: 1rem;
+}
+
+.signUp .labelEmail{
+    margin-bottom: 1rem;
+}
+
+.signUp .labelPassword{
+    margin-bottom: 1rem;
+}
+
+.signUp input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+
+}
+
+.signUp span {
+    color: var(--pink);
+}
+
+.signUp button {
+  width: 100%;
+  padding: 8px 16px;
+  background-color: var(--lightPink);
+  color: black;
+  border: none;
+  border-radius: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.signUp button:hover {
+  background-color: var(--pink);
+  color: black;
+
+}
+
+@media only screen and (max-width: 768px){
+  .signUp {
+      margin: auto;
+      margin-top: 3rem;
+      width: 370px;
+      height: 500px;
+      padding: 20px;
+      font-size: 17px;
+  }
+}

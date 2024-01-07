@@ -1,0 +1,81 @@
+.containerLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90.21deg, var(--white) -5.91%, var(--lightPink) 111.58%);
+    height: 90vh;
+}
+
+.bgBlack {
+    background: linear-gradient(90.21deg, var(--white) -5.91%, var(--lightPink) 111.58%);
+    box-shadow: 1px 1px 3px 2px #ddd;
+    padding: 30px;
+    border-radius: 0.25rem;
+    width: 500px;
+    font-size: 1.2rem;
+    margin-bottom: 8rem;
+}
+
+.bgBlack h2 {
+    text-align: center;
+}
+
+.bgBlack .labelEmail {
+    margin-bottom: 1rem;
+}
+
+.bgBlack .labelPassword {
+    margin-bottom: 1rem;
+}
+
+.labelEmail input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.labelPassword input {
+    width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.bgBlack button {
+    width: 100%;
+  padding: 8px 16px;
+  background-color: var(--lightPink);
+  color: black;
+  border: none;
+  border-radius: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.bgBlack button:hover {
+    width: 100%;
+  padding: 8px 16px;
+  background-color: var(--pink);
+  color: black;
+  border: none;
+  border-radius: 0;
+  font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.bgBlack span {
+    color: var(--pink);
+}
+
+@media only screen and (max-width: 768px){
+  .bgBlack {
+      margin: auto;
+      margin-top: 5rem;
+      width: 370px;
+      height: 500px;
+      padding: 20px;
+      font-size: 17px;
+      height: 400px;
+  }
+}

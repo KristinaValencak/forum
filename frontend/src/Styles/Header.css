@@ -1,0 +1,147 @@
+header {
+    display:flex;
+    align-items: center;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--lightPink);
+    color:#141010;
+    font-weight: bold;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+  }
+ 
+  nav a {
+    color: #141010;
+    text-decoration: none;
+    margin: 0 2rem;
+    font-size: 1.25rem;
+  }
+
+  nav {
+    margin-left: 4rem;
+  }
+
+  .loginSignup {
+    display: flex;
+    gap: 20px;
+    margin-right: -14rem;
+  }
+
+ header .loginSignup button {
+  padding: 6px;
+  color: var(--lightPink);
+  background: black;
+  font-size: 1rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+ }
+
+ .loginSignup span {
+  margin-top: 0.3rem;
+  font-size: 1.25rem;
+ }
+
+ .loginSignup .user-icon {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  margin-right: -0.7rem;
+ }
+ 
+ header .loginSignup button:hover {
+  background-color: var(--pink);
+ } 
+
+ nav a:hover {
+  color: var(--pink);
+ }
+ 
+ header .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
+ }
+
+ .homeHidden {
+  visibility: hidden;
+  }
+
+  .login-Signup-hidden{
+    visibility: hidden;
+  }
+
+ @media only screen and (max-width: 768px){
+  
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+    color: black;
+    font-size: 25px;
+  }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    left: -4rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--lightPink);
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+
+  .homeHidden {
+    visibility: visible;
+  }
+
+  .login-Signup-hidden{
+    visibility: visible;
+  }
+
+  header .responsive_nav{
+    transform: none;
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+    position: relative;
+  }
+
+  header .loginSignup {
+    visibility: hidden;
+  }
+
+  .Logo {
+    width: 100px;
+    margin-right: 5rem;
+    margin-left: -6.5rem;
+    padding-top: 0.5rem;
+    
+  }
+  
+  nav a::after {
+    content: ""; 
+    position: absolute; 
+    bottom: -2px; 
+    left: 0; 
+    width: 350px; 
+    border-bottom: 1px solid black; 
+  }
+ 
+ }
