@@ -1,0 +1,106 @@
+.quiz {
+    background: linear-gradient(90.21deg, var(--white) -5.91%, var(--lightPink) 111.58%);
+    height: 100vh;
+}
+
+.containerQuiz {
+    box-shadow: 1px 1px 3px 2px #ddd;
+    width: 600px;
+    margin: 20px auto;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 50px;
+    background: linear-gradient(90.21deg, var(--white) -5.91%, var(--lightPink) 111.58%);
+}
+
+.containerQuiz button {
+    width: 100%;
+    padding: 8px 16px;
+    background-color: var(--lightPink);
+    color: black;
+    border: none;
+    border-radius: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.containerQuiz button:hover {
+    background-color: var(--pink);
+    color: black;
+}
+
+.containerQuiz hr {
+    height: 2px;
+    border: none;
+    background: black;
+    margin-top: -0.5rem;
+}
+
+.containerQuiz h2 {
+    font-size: 20px;
+}
+
+.containerQuiz ul li {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.containerQuiz .index {
+    margin: auto;
+    font-size: 18px;
+}
+
+.containerQuiz .correct {
+    border-color: 00d397;
+    background-color: #6ff7a7;
+}
+
+.containerQuiz .wrong{
+    border-color: #FF4A4A;
+    background-color: #ffa6a6;
+}
+
+@media only screen and (max-width: 768px){
+    .containerQuiz {
+        width: 370px;
+        padding: 10px 20px;
+        margin-top: 3rem;
+    }
+    .containerQuiz ul li {
+        
+        height: 50px;
+        font-size: 16px;
+        line-height: 1rem;
+        padding-left: 0.5rem;
+        
+    }
+    .containerQuiz h2 {
+        font-size: 17px;
+        margin-top: -1rem;
+        
+    }
+    .containerQuiz .index {
+        
+        font-size: 16px;
+        
+    }
+    .containerQuiz button {
+        width: 100%;
+        font-size: 17px;
+        margin-top: -1rem;
+    }
+    .containerQuiz hr {
+        
+        margin-top: -0.5rem;
+    }
+  }

@@ -1,0 +1,105 @@
+.containerPosts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .post-content{
+    text-align:justify;
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .box-post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    box-shadow: 1px 1px 3px 2px #ddd;
+  }
+  
+  .post-title {
+    font-weight: bold;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  
+  .post-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    font-size: 1.2rem;
+    color: gray;
+  }
+
+  .answerbutton {
+    margin-top: 1rem;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background:linear-gradient(90.21deg, var(--white) -5.91%, var(--lightPink) 111.58%);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .answerbutton:hover {
+    color: var(--pink);
+   }
+  
+   .newAnswer{
+    text-align: center;
+  }
+
+  .box-post input {
+    height: 5rem;
+    border: none;
+  }
+
+  .newanswerButton {
+    padding: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: var(--lightPink);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newanswerButton:hover{
+    background-color: black;
+    color: white;
+  }
+
+  .box-post input:focus, input:focus::placeholder {
+    outline: none;
+  }
+
+  @media only screen and (max-width: 768px){
+    
+    .post-content{
+      font-size: 15px;
+    }
+    .post-footer{
+      font-size: 16px;
+    }
+    .post-title{
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .newanswerButton{
+      font-size: 17px;
+    }
+    .answerbutton{
+      font-size: 18px;
+    }
+  }
+  
